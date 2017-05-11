@@ -3,6 +3,7 @@
 body{
 	font-family: 'Lora';
 }
+
 section{
 	padding: 100px 0 70px;
 	background-size: cover;
@@ -114,9 +115,13 @@ section{
 		Header
 **********************/
 .header{
-	background-image: url(../images/header.jpg);
-	height: 100vh;
-	position: relative;
+
+	background: url(/images/faq.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100%;
 }
 .intro-box{
 	height: 100vh;
