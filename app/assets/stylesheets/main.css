@@ -4,6 +4,10 @@ body{
 	font-family: 'Lora';
 }
 
+.ror-body {
+	
+}
+
 section{
 	padding: 100px 0 70px;
 	background-size: cover;
@@ -121,8 +125,9 @@ section{
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    height: 100%;
+    max-height: 50%;
 }
+
 .intro-box{
 	height: 100vh;
 }
